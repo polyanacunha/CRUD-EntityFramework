@@ -10,8 +10,7 @@ public class aula2611DataContext:DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)
     {
-        //options.UseSqlServer("Data Source=DESKTOP-7GCCS8Q\\SQLEXPRESS01;Initial Catalog=mentoria;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
-         options.UseSqlServer("Data Source=usinacompany.com;User ID=usina_usr;Password=Abc54321;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+         options.UseSqlServer("PUT YOUR CONNECTION STRING HERE");
     }
 
     // protected override void OnModelCreating(ModelBuilder modelBuilder)
